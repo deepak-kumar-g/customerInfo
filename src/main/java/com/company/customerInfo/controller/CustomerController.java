@@ -22,7 +22,7 @@ public class CustomerController {
 	@PostMapping("/save")
 	public ResponseEntity<ApiResponse> saveCustomerInfo(@RequestBody CustomerRequestInfo RequestInfo){
 		CustomerSer.saveCustomerInfo(RequestInfo);
-		ApiResponse response = new ApiResponse("success", "Data received successfully.");
+		ApiResponse response = new ApiResponse("success", "Customer details saved successfully!");
 		return ResponseEntity.ok(response);
 	}
 	
