@@ -12,30 +12,30 @@ The API accepts a POST request with a JSON body containing the following paramet
 ### Request Parameters
 | Parameter       | Type   | Description                                    | Example Value              |
 |----------------|--------|------------------------------------------------|----------------------------|
-| firstName      | String | First name of the user                        | "John"                     |
-| lastName       | String | Last name of the user                         | "Doe"                      |
-| email          | String | User's email address                          | "john.doe@example.com"     |
-| phoneNumber    | String | User's contact number                         | "9876543210"               |
-| street         | String | Street address                                | "123 Main St"              |
-| city           | String | City name                                     | "Mumbai"                   |
-| state          | String | State name                                    | "Maharashtra"              |
-| zipCode        | String | Postal/ZIP code                               | "400001"                   |
-| documentType   | String | Type of document (Aadhar, PAN, etc.)         | "Aadhar"                   |
-| documentNumber | String | Unique document identifier                    | "1234-5678-9012"           |
+| firstName      | String | First name of the user                        | "Karthik"                     |
+| lastName       | String | Last name of the user                         | "Sai"                      |
+| email          | String | User's email address                          | "karthik.subramanian@example.com"     |
+| phoneNumber    | String | User's contact number                         | "9845678901"               |
+| street         | String | Street address                                | "12 Tidel Park Road"              |
+| city           | String | City name                                     | "Chennai"                   |
+| state          | String | State name                                    | "Tamil Nadu"              |
+| zipCode        | String | Postal/ZIP code                               | "600100"                   |
+| documentType   | String | Type of document (Aadhar, PAN, etc.)         | "Driving License"                   |
+| documentNumber | String | Unique document identifier                    | "TN-01-2020-123456"           |
 
 ## Example Request Body
 ```json
 {
-    "firstName": "John",
-    "lastName": "Doe",
-    "email": "john.doe@example.com",
-    "phoneNumber": "9876543210",
-    "street": "123 Main St",
-    "city": "Mumbai",
-    "state": "Maharashtra",
-    "zipCode": "400001",
-    "documentType": "Aadhar",
-    "documentNumber": "1234-5678-9012"
+    "firstName": "Karthik",
+    "lastName": "Sai",
+    "email": "karthik.sai@example.com",
+    "phoneNumber": "9845678901",
+    "street": "12 Tidel Park Road",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "zipCode": "600100",
+    "documentType": "Driving License",
+    "documentNumber": "TN-01-2020-123456"
 }
 ```
 
@@ -71,6 +71,15 @@ Error: response status is 400
 - Ensure all fields are properly formatted before making a request.
 - The `documentType` field should contain valid document types such as "Aadhar," "PAN," "Passport," etc.
 - The API validates email format and phone number length.
+
+
+## Swagger UI Screenshots
+
+<img width="732" alt="Screenshot 2025-02-07 at 6 30 09 PM" src="https://github.com/user-attachments/assets/0a0e9f7d-64fd-4d8a-8530-f67f458d9b83" />
+<img width="725" alt="Screenshot 2025-02-07 at 6 30 33 PM" src="https://github.com/user-attachments/assets/3303c1dc-f6e6-4cbc-ae02-b39b05785d3b" />
+<img width="733" alt="Screenshot 2025-02-07 at 6 31 09 PM" src="https://github.com/user-attachments/assets/799699bb-ce60-4165-9c6b-93127af42810" />
+
+
 
 ---
 
