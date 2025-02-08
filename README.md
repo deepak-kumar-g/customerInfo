@@ -79,6 +79,10 @@ Error: response status is 400
 <img width="725" alt="Screenshot 2025-02-07 at 6 30 33 PM" src="https://github.com/user-attachments/assets/3303c1dc-f6e6-4cbc-ae02-b39b05785d3b" />
 <img width="733" alt="Screenshot 2025-02-07 at 6 31 09 PM" src="https://github.com/user-attachments/assets/799699bb-ce60-4165-9c6b-93127af42810" />
 
+## Acknowledgments
+- Thanks to the Spring Boot and JPA communities for their amazing frameworks and documentation.
+- Inspired by various open-source projects.
+
 
 
 ---
